@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/73/7a/fc/737afc838a044a4e5d33258db9ecebdb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+
+    padding: 5px 5px 5px 5px;
+    color: aliceblue;
+    font-size: 10px;
+    font-style: bold;
+}
+
+video {
+    width: 400px;
+    /* عرض الفيديو */
+    margin-right: 20px;
+    /* مسافة بين الفيديو والنص */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* لمحاذاة الصورة مع النص */
+}
+
+.container img {
+    margin-right: 10px;
+    /* مسافة بين الصورة والنص */
+    width: 100px;
+    /* عرض الصورة */
+    height: auto;
+    /* الحفاظ على نسبة الأبعاد */
+    margin: 10pt;
+}
